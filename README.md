@@ -1,6 +1,9 @@
-# img
+# ImageDrop
 
 A minimal image upload and share platform built with Nuxt 4, TypeScript, and Tailwind CSS.
+
+## Repository
+[GitHub Repository](https://github.com/exxtreme315/imagedrop)
 
 ## Features
 
