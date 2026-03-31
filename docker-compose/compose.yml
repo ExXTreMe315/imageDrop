@@ -1,0 +1,12 @@
+services:
+  img:
+    image: img:latest
+    container_name: img-uploader
+    restart: always
+    networks:
+      - nginx_network
+
+networks:
+  nginx_network:
+    name: nginx_shared_network
+    external: true

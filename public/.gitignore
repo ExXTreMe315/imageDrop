@@ -1,0 +1,3 @@
+# Exclude uploaded image directories (runtime generated)
+# Format: timestamp-randomhex/
+[0-9]*-*/
