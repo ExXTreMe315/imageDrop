@@ -14,7 +14,7 @@ RUN npm install -g pnpm
 COPY --link package.json pnpm-lock.yaml ./
 RUN pnpm install
 
-COPY --link ../../Downloads/img-main .
+COPY --link . .
 
 RUN pnpm build
 
